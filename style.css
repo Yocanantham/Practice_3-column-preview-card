@@ -50,14 +50,17 @@ input {
 .sedans input {
     color: hsl(31, 77%, 52%);
     font-weight: 500;
+    transition: font-size 1s ease;
 }
 .suvs input {
     color: hsl(184, 100%, 22%);
     font-weight: 500;
+    transition: font-size 1s ease;
 }
 .luxury input {
     color: hsl(179, 100%, 13%);
     font-weight: 500;
+    transition: font-size 1s ease;
 }
 
 /* # Hover Effects */
@@ -67,7 +70,7 @@ input {
     font-size: medium;
     font-weight: 700;
     transition: background-color 1s ease;
-    transition: font-size 1s ease;
+    
 }
 .suvs input:hover {
     background-color: hsl(184, 100%, 22%);
@@ -75,7 +78,7 @@ input {
     font-size: medium;
     font-weight: 700;
     transition: background-color 1s ease;
-    transition: font-size 1s ease;
+    
 }
 .luxury input:hover {
     background-color: hsl(179, 100%, 13%);
@@ -83,7 +86,7 @@ input {
     font-size: medium;
     font-weight: 700;
     transition: background-color 1s ease;
-    transition: font-size 1s ease;
+    
 }
 
 
