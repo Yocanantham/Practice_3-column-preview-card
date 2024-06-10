@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    height: 100vh;
+}
+
+img {
+    display: block;
+    width: 64px;
+    height: 40px;
+}
+
+h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+input {
+    display: block;
+    font-family: inherit;
+    padding: 1rem 1.5rem;
+    border: 3px solid white;
+    border-radius: 45px;
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 1.5rem;
+    width: 150px;
+    text-align: center;
+}
+
+/*  # Input Styles */
+.sedans input {
+    color: hsl(31, 77%, 52%);
+}
+.suvs input {
+    color: hsl(184, 100%, 22%);
+}
+.luxury input {
+    color: hsl(179, 100%, 13%);
+}
+
+/* # Hover Effects */
+.sedans input:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+.suvs input:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+.luxury input:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    overflow: hidden;
+    min-width: 400px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2.4rem;
+    /* border-radius: 15px; */
+    flex: 1 0 400px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2.4rem;
+    /* border-radius: 15px; */
+    flex: 1 0 400px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2.4rem;
+    /* border-radius: 15px; */
+    flex: 1 0 400px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
