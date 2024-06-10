@@ -49,26 +49,41 @@ input {
 /*  # Input Styles */
 .sedans input {
     color: hsl(31, 77%, 52%);
+    font-weight: 500;
 }
 .suvs input {
     color: hsl(184, 100%, 22%);
+    font-weight: 500;
 }
 .luxury input {
     color: hsl(179, 100%, 13%);
+    font-weight: 500;
 }
 
 /* # Hover Effects */
 .sedans input:hover {
     background-color: hsl(31, 77%, 52%);
     color: hsl(0, 0%, 95%);
+    font-size: medium;
+    font-weight: 700;
+    transition: background-color 1s ease;
+    transition: font-size 1s ease;
 }
 .suvs input:hover {
     background-color: hsl(184, 100%, 22%);
     color: hsl(0, 0%, 95%);
+    font-size: medium;
+    font-weight: 700;
+    transition: background-color 1s ease;
+    transition: font-size 1s ease;
 }
 .luxury input:hover {
     background-color: hsl(179, 100%, 13%);
     color: hsl(0, 0%, 95%);
+    font-size: medium;
+    font-weight: 700;
+    transition: background-color 1s ease;
+    transition: font-size 1s ease;
 }
 
 
